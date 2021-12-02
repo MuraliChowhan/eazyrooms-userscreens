@@ -64,10 +64,7 @@ const SimpleSearchBar = (props) => {
         setVisible(false);
     };
 
-    const selectChange = e => {
-        console.log(e.target.value);
-    };
-
+   
     return (
         <>
             <div className="simple-search-bar col-10 offset-1">

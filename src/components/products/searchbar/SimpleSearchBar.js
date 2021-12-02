@@ -64,9 +64,6 @@ const SimpleSearchBar = (props) => {
         setVisible(false);
     };
 
-    const selectChange = e => {
-        console.log(e.target.value);
-    };
 
     return (
         <>

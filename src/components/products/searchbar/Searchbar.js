@@ -68,10 +68,7 @@ const SearchBar = (props) => {
         setVisible(false);
     };
 
-    const selectChange = e => {
-        console.log(e.target.value);
-    };
-
+    
     return (
         <>
             <div className="container border search-bar-container" style={{ backgroundColor: "#f3f8fb", padding: "25px 40px 188px 0px" }}>
