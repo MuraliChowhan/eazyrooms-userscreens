@@ -1,0 +1,22 @@
+.card{
+
+}
+.overlay {
+    position: absolute;
+    bottom: -9px;
+    background: rgb(0, 0, 0);
+    background: rgb(0 0 0 / 72%);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 25px;
+    text-align: center;
+    right: 0px;
+  }
+
+  .card:hover .overlay {
+    opacity: 1;
+  }

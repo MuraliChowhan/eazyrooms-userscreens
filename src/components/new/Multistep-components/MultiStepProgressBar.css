@@ -1,0 +1,118 @@
+.indexedStep {
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    background-color: rgba(211, 211, 211, 0.8);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .indexedStep.accomplished {
+    background-color: rgb(20 110 180);
+  }
+  
+  .lableNames{
+    color: #808080;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* padding: 20px; */
+  }
+
+  .activeBg{
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 20px;
+    font-weight: 500;
+    border-left: 4px solid #146eb4;
+    border-right: 1px solid #fafafa;
+  }
+
+  .inactiveBg{
+    background-color:#fafafa;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 20px;
+    border-left: 4px solid #fafafa;
+    border-right: 1px solid #fafafa;
+  }
+
+  .paymentText{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .paymentDesc{
+    font-size: 14px;
+    line-height: 20px;
+    color: #808080;
+    font-weight: 400;
+  }
+  .paymentBorders{
+    border-right: 1px solid rgba(0,0,0,.125)
+  }
+
+  .choosePayment{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 16px;
+    font-weight: 500;
+  }
+
+  .cursor-pointer{
+    cursor: pointer;
+  }
+
+.RSPBprogressBar {
+  height: 1px !important;
+}
+
+.previousOutlineBtn{
+    border-color: #eb0948;
+    color: #eb0948 
+}
+.previousOutlineBtn:hover {
+  background: #eb0948;
+  color: white;
+}
+
+.already-user
+{
+    color: #146eb4 !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    border: 1px solid #146eb4 !important;
+    border-radius: 4px !important;
+    text-align: center !important;
+    font-size: 14px !important;
+    padding: 4px 14px !important;
+}
+
+.already-user:hover
+{
+    background-color: #146eb41f;
+    color: #146eb4;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #146eb4;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    padding: 6px 14px
+}
+.custom-margin-top{
+  margin-top: 93px;
+}
+
+@media (max-width: 480px)
+{
+  .custom-margin-top
+   {
+    margin-top: 10px;
+   }
+}

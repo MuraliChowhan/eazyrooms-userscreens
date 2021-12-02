@@ -1,0 +1,134 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 10px 10px 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 8%);
+    background-color: #fff;
+}
+
+
+.search-bar-container .search-bar .search-bar-divider {
+    width: 1px;
+    height: 100%;
+    background-color: var(--black-85);
+}
+
+.search-bar-container .search-bar .search-bar-item {
+    position: relative;
+    margin: 0 10px 0 24px;
+    width: 366px;
+}
+.search-bar-container .search-bar button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+}
+.input-wrap {
+    position: relative;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+
+.dropdown {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: -218px;
+    width: 65%;
+}
+.dropdown2 {
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 2px;
+    width: 50%;
+    margin-left: 50%;
+}
+
+.dropdown2, .dropend, .dropstart, .dropup {
+    position: relative;
+}
+
+.item_text1 {
+    color: #090a3c;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  
+  .item_text2 {
+    font-size: 14px;
+    color: #090a3c80;
+    margin-left: 15px;
+    font-weight: 500;
+  }
+
+  .simple-search-bar
+  {
+      /* background-color: #f2f2f2; */
+      border-radius: 5px;
+      margin-left: "50px" !important 
+  }
+  
+  .search-bar-dropdown{
+    position: absolute;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    margin-top: 6px;
+    width: 75%;
+    margin-left: 71px;
+    padding: 15px;
+    z-index: 50;
+  }
+
+  .input-group .input-group-text{
+        /* background-color: #146eb4 !important; */
+        border-top-left-radius: 6px !important;
+        border-bottom-left-radius: 6px !important;
+  }
+
+  .search-icon .input-group-text{
+    background-color: #146eb4 !important;
+    border-top-left-radius: 6px !important;
+    border-bottom-left-radius: 6px !important;
+}
+
+@media (max-width: 480px)
+{
+   .dropdown
+   {
+    width: 100%;
+    margin-left: 0%;
+   }
+}
+
+
+@media (max-width: 480px)
+{
+   .dropdown2
+   {
+    width: 80%;
+    margin-left: 9%;
+   }
+}
+
+@media (max-width: 480px)
+{
+   .simple-search-bar
+   {
+        margin-left: 0%;
+   }
+}
+
+@media (max-width: 480px)
+{
+    .media-custom-left
+   {
+        margin-left: 5%;
+   }
+}
+

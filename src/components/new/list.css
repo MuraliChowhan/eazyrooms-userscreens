@@ -1,0 +1,158 @@
+.media-heading{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #1a181e;
+}
+/* .cost-text{
+    font-weight: 500;
+    color: #1a181e;
+} */
+.media-remove{
+    color: #808080;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.apply-coupon-text{
+    color: #ee741f;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.apply-coupon-btn{
+    color: #146eb4;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 14px;
+    padding: 6px 14px;
+    border: 1px solid #146eb4;
+    background-color: #fff;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.item-heading{
+    font-weight: 400;
+    font-size: 14px;
+    /* margin-bottom: 2px; */
+}
+.item-cost{
+    font-weight: 400;
+    font-size: 15px;
+}
+.items-total{
+    font-size: 15px;
+    font-weight: 500;
+    /* color: #808080; */
+}
+.custom-btn{
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #146eb4;
+    padding: 8px 32px;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+.custom-btn:hover{
+    background-color: #115f9c;
+}
+.lists-item-heading
+{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.activeSteps {
+    background: rgb(237, 40, 70);
+    border-radius: 5px;
+    padding: 15px 25px;
+    display: inline-block;
+    margin: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    box-shadow:0px 2px 5px rgb(0,0,0,0.5);
+  }
+
+  .inactiveSteps {
+      
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+    padding-left: 6px;
+    padding-top: 2px;
+  }
+
+.lines{
+    width: 10px;
+    height: 2px;
+    background-color: #afafaf;
+}
+.account{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #4d4d4d;
+}
+
+.icon-bg-bag{
+    background-color: #e7f0f7;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 0;
+    cursor: pointer;
+    min-width: 90px;
+    border-radius: 20px;
+    padding: 6px 10px;
+    font-size: 14px;
+    color: #146eb4;
+}
+.account-bg
+{
+  
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 0;
+    cursor: pointer;
+    min-width: 90px;
+    border-radius: 20px;
+    padding: 6px 10px;
+}
+.account-bg
+{
+  
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 0;
+    cursor: pointer;
+    min-width: 90px;
+    border-radius: 20px;
+    padding: 6px 10px;
+}
+.account-bg:hover
+{
+    /* background-color: #f2f2f2; */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 0;
+    cursor: pointer;
+    min-width: 90px;
+    border-radius: 20px;
+    padding: 6px 10px;
+}

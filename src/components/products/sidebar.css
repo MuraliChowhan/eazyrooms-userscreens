@@ -1,0 +1,158 @@
+.sidebarActive{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding: 6px 8px 6px 5px;
+    display: block;
+    height: 36px;
+    cursor: pointer;
+    /* border-right: 4px solid transparent; */
+    position: relative;
+    overflow: hidden;
+    background-color: #f4f8fc;
+    border-right: 4px solid #146eb4 !important;
+    color: #146eb4 ;
+    font-weight: 500;
+    /* font-family: GalanoGrotesque,san-serif; */
+}
+
+.sidebarInctive{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding: 6px 8px 6px 5px;
+    display: block;
+    height: 36px;
+    cursor: pointer;
+    border-right: 4px solid transparent !important;
+    position: relative;
+    overflow: hidden;
+    font-weight: 500;
+    font-family: system-ui;
+    /* font-family: GalanoGrotesque,san-serif; */
+}
+.dot{
+    height: 11px;
+    width: 11px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+.square-box{
+    height: 17px;
+    width: 17px;
+    border-style: solid;
+    border-color: green;
+    /* border-radius: 50%; */
+    display: inline-block;
+}
+
+.bid-minus{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #fff;
+}
+.bid-plus{
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+}
+.bid-money{
+    text-align: center;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    /* background: #fff; */
+    color: #fff;
+}
+.bid-plus-minus{
+    border: 1px solid #146eb4;
+    border-radius: 8px;
+    font-size: 16px;
+    position: relative;
+    padding: 2px 12px;
+    background-color: #146eb4;
+    color: #fff;
+}
+.bid-plus-minus:hover{
+    border: 1px solid #115f9c;
+    border-radius: 8px;
+    font-size: 16px;
+    position: relative;
+    padding: 2px 12px;
+    background-color: #115f9c;
+    color: #fff;
+}
+.custom-badge{
+    display: inline-block;
+    padding: .35em .65em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    background-color:#146eb4;
+    color: #fff;
+}
+.subTotal{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.text-ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    /* font-weight: 600; */
+    color: #34395e;
+    font-size: 15px;
+    letter-spacing: .5px;
+
+    /* text-overflow: ellipsis; */
+}
+
+.text-ellipsis:hover{
+    white-space: nowrap;
+    overflow: hidden;
+    color: #1187e2;
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+
+.summery-text{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.bookNow{
+    text-align: center;
+    font-size: 14px;
+}
+
+.itemPrice{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.media img {
+    transition: 0.5s all ease-in-out;
+}
+
+.imageProperties:hover {
+    transition: 0.5s all ease-in-out;
+    transform: scale(1.1);
+}
+
+.hotelName{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}

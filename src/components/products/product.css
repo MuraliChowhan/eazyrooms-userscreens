@@ -1,0 +1,75 @@
+.Product-name-text{
+    font-size: 18px;
+    cursor: pointer;
+    color: #000;
+}
+.product-sub-text{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.product-cost{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+
+.product-cost-delete{
+    font-size: 18px;
+    font-weight: 500;
+    color: #808080;
+}
+.product-discount{
+    position: absolute;
+    background-color:#ee741f;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 3px;
+    left: 0px;
+    /* top: 140px; */
+}
+
+.product-bid-plus-minus {
+    border: 1px solid #146eb4;
+    border-radius: 8px;
+    font-size: 16px;
+    position: relative;
+    /* padding: 2px 12px; */
+    /* background-color: #146eb4; */
+    color: #146eb4;
+    width: 100px;
+    height: 28px;
+}
+
+.initial-count{
+    color:#146eb4;
+    font-weight: 500;
+    background-color: #e7f0f7;
+    padding: 4px;
+    height: 26px;
+}
+.plus{
+    color:#146eb4;
+    font-size: 24px;
+    font-weight: 500;
+}
+.minus{
+    color:#146eb4; 
+    font-size: 24px;
+    font-weight: 500; 
+}
+
+.service-buy-btn{
+    border: 1px solid #146eb4;
+    border-radius: 8px;
+    font-size: 14px;
+    position: relative;
+    color: #fff !important;
+    padding: 4px 12px;
+    background-color: #146eb4;
+    color: #146eb4;
+    width: 100px;
+    /* height: 28px; */
+}

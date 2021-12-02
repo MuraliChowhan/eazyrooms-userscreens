@@ -1,0 +1,43 @@
+.lable-heading{
+    font-weight: 600;
+    color: #34395e;
+    font-size: 12px;
+    letter-spacing: .5px;
+}
+
+.time-slot ul {
+    list-style: none;
+    margin-right: -5px;
+    margin-left: -5px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.time-slot li .timing {
+    background-color: #FFFFFF;
+    border: 1px solid #455A64;
+    border-radius: 8px;
+    color: #455A64;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 3px;
+    padding: 10px 5px;
+    text-align: center;
+    position: relative;
+}
+
+.time-slot li .timing.selected {
+    background-color: #0071DC;
+    border: 1px solid #0071DC;
+    color: #fff;
+}
+
+.slotActive{
+    background-color: #0071DC !important;
+    color: #fff !important;
+    border: none !important;
+}
+.slotInactive{
+    color: #000 !important;
+    padding: 9px 5px !important;
+}

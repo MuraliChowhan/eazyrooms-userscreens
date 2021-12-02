@@ -1,0 +1,114 @@
+.mobile-number{
+    font-size: #808088;
+    font-size: 14px;
+}
+.mobile-number{
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+}
+.card-hover:hover{
+    border: 1px solid #146eb4;
+}
+.items-cards:hover{
+    background-color: #fafafa;
+}
+.dots{
+    height: 12px;
+    width: 12px;
+    background-color: #ff9c36;
+    border-radius: 50%;
+    display: inline-block;
+}
+.cancel-order-btn{
+    font-size: 14px;
+    color: #e50b20;
+    border: 1px solid #e50b20;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: transparent;
+}
+
+.cancel-order-btn:hover{
+    font-size: 14px;
+    color: #e50b20;
+    border: 1px solid #e50b20;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #e50b2030;
+}
+
+.order-items-count{
+    color: #146eb4; 
+    border: 1px solid #146eb4 !important;
+    font-size: 15px;
+    background-color: #60aeeb38;
+}
+
+.user-lables{
+    font-size: 15px;
+    font-weight: 600;
+    color:#000;
+    font-family: system-ui;
+}
+.user-values{
+    font-size: 15px;
+    font-weight: 400;
+    color:#000;
+    font-family: system-ui;
+}
+
+.request-cancilation-text{
+    font-size: 15px;
+    font-family: system-ui;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #808088;
+}
+
+.cancel-types{
+    font-size: 15px;
+    color: #000;
+    font-family: system-ui;
+    font-weight: 400;
+}
+.check-status-btn{
+    border:1px solid #146eb4;
+    padding: 12px;
+    width: 180px;
+    background-color: transparent;
+    border-radius: 6px;
+    font-weight: 600;
+    /* color: #fff; */
+}
+.check-status-btn:hover{
+    border:1px solid #146eb4;
+    padding: 12px;
+    font-weight: 600;
+    width: 180px;
+    background-color: #146eb41f;
+    border-radius: 6px;
+    color: #000;
+}
+.continue-shopping-btn{
+    background-color: #146eb4;
+    border: 1px solid #146eb4;;
+    padding: 12px;
+    width: 180px;
+    border-radius: 6px;
+    color: #fff;
+    font-family: system-ui;
+    font-weight: 600;
+    margin-left: 8px;
+}
+.continue-shopping-btn:hover{
+    background-color: #1b83d3;
+    border: 1px solid #146eb4;;
+    padding: 12px;
+    width: 180px;
+    border-radius: 6px;
+    color: #fff;
+    font-family: system-ui;
+    font-weight: 600;
+    margin-left: 8px;
+}

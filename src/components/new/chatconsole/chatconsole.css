@@ -1,0 +1,212 @@
+.borderColor:hover{
+    background-color : #f2f5fc;
+}
+.borderColor:active{
+    border: 1px solid #200aeb !important; 
+
+}
+.chatHeader{
+  padding: 12px;
+  background-color:#555ae9;
+}
+.chatHeader:hover{
+  padding: 12px;
+  background-color:#ff0068;
+}
+
+.borderColor
+{
+    background-color: #fff;
+    border-radius: 15px !important;
+}
+.text-id{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+.text-desc{
+    font-size: 13px;
+    font-weight: 500;
+    color: #05224f;
+}
+
+.text-date{
+    font-size: 10px;
+    font-weight: 500;
+    color: #05224f;
+}
+.chatbox-header-text{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    padding: 16px 0;
+    margin: 0;
+}
+.chat-header-text{
+    font-size: 16px;
+    font-weight: 700;
+    color: #05224f;
+    padding: 16px 0;
+    margin: 0;
+}
+.custom-card .card{
+    border-radius: 10px !important;
+}
+.custom-card .card-header{
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.custom-card .card-header{
+  padding: "10px" !important;
+  background-color: "rgb(85, 90, 233)" !important;
+}
+
+.custom-card .card-header:hover{
+        padding: "10px" !important;
+        background-color: "rgb(253 13 91)" !important;
+}
+
+.line {
+    /* border: 10px solid green;
+    border-radius: 1px; */
+    border-top: 1px solid red;
+  }
+  .message-area{
+      border-radius: 5px;
+      border: 1px solid #e9e9e9;
+      padding: 4px ;
+      font-size: 14px;
+      color: #05224f;
+      font-weight: 500;
+  }
+  .user-border-area{
+      background-color:#eaeffa !important;
+      border-radius: 13px;
+      padding: 10px;
+  }
+  .replay-message-area{
+    border-radius: 5px;
+    background-color:#eaeffa !important;
+    padding: 4px ;
+    font-size: 14px;
+    font-weight: 500;
+    color: #05224f;
+}
+.accordian-bg-color{
+    background-color: rgb(238, 242, 248);
+}
+
+
+
+/* custom accordians css */
+
+.accor {
+    margin: 10px;
+    /* border: 1px solid #ddd; */
+    transition: 0.4s;
+  }
+  .accor .head {
+    background: #eee;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .accor .body {
+    /* background: #fafafa; */
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: 200ms ease-in-out;
+  }
+  .accor.active > .body {
+    padding: 10px 20px;
+    max-height: 600px;
+  }
+  .body{
+    color: #525760;
+    font-size: 13px;
+    /* margin-top: 16px; */
+    font-weight: 600;
+  }
+  .noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+  }
+  
+  .select-thread{
+    border: none;
+    color: #4c71a5;
+    /* font-family: Poppins; */
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 20%;
+    text-align:center;
+    margin-top: 100px;
+  }
+  .activeColor{
+      background-color: #555ae9;
+      border-radius: 15px;
+      color: #fff;
+  }
+  .InactiveColor{
+    background-color: #fff;
+    border-radius: 15px;
+    color:#555ae9 ;
+}
+
+#dropdown-basic::after{
+    display: none; 
+ }
+
+ .d-flex .dropdown {
+    background-color: none !important; 
+    border-radius: 0px !important;
+    margin-top: 0px !important;
+    width: 20% !important;
+}
+
+.dropdown-options{
+    font-weight: 400;
+    margin: 0;
+    background: #fff;
+    border: none;
+    color: #4c71a5;
+    display: block;
+    font-size: .9rem;
+    padding: 8px 12px;
+    text-align: left;
+    text-decoration: none;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }

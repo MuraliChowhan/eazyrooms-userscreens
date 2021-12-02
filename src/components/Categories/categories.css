@@ -1,0 +1,127 @@
+.categories-discount {
+    position: absolute;
+    background-color: #ee741f;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 3px;
+    left: -10px;
+    top: -5px;
+    z-index: 1;
+}
+
+.items-heading{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.categories-zoom:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    opacity: 0.8;
+}
+.categories-zoom {
+    transition: transform .2s; /* Animation */
+  }
+.category-name{
+    font-size: 15px;
+}
+.add-item-btn{
+    border: #0071DC;
+    color: #0071DC;
+}
+.item-cost{
+    font-size: 15px;
+    color: #000;
+}
+.item-cost-delete{
+    font-size: 15px;
+    color: #808880;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* padding: 20px; */
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding:15px;
+    /* font-size: 30px; */
+    /* text-align: center; */
+  }
+
+  .item-name-text
+  {
+      font-size: 15x;
+      font-weight: bold;
+      /* font-family:  san-serif; */
+      color: #000;
+  }
+  .total-piece-text{
+    font-size: 14px; 
+    /* font-family: san-serif; */
+  }
+
+
+  .item-counts{
+    border: 1px solid #146eb4;
+    border-radius: 5px;
+    font-size: 16px;
+    position: relative;
+    /* padding: 2px 12px; */
+    /* background-color: #146eb4; */
+    color: #146eb4;
+    width: 75px;
+    height: 25px;
+  }
+
+  .item-count-dec{
+    color: #146eb4;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 0px;
+  }
+
+  .item-count-inc{
+    color: #146eb4;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 0px;
+  }
+
+  .add-item-text{
+    font-size: 12px;
+    background-color: transparent;
+  }
+  .item-cost-text{
+      font-size: 15px;
+      font-weight: 600;
+  }
+  .deleted-cost-text{
+    font-size: 15px;
+    font-weight: 600;
+    color: #808880;
+  }
+
+  .item-initial-count {
+    color: #146eb4;
+    font-weight: 500;
+    background-color: #e7f0f7;
+    padding: 4px;
+    height: 23px;
+    padding-top: 0px;
+}
+
+.similar-products{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.view-all-products{
+    font-size: 14px;
+    color: #146eb4;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,114 @@
+.custom-list-group-item{
+    position: relative;
+      display: block;
+      padding: .5rem 1rem;
+      color: #818181;
+      text-decoration: none;
+  }
+  .custom-list-group-item:hover{
+    color: #ffffff;
+    transition: 0.4s;
+  }
+  .sidebar {
+    height: 100%;
+    width: 250px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#0a173e;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    float: left;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: -10px !important;
+    right: 16px;
+    font-size: 36px;
+    /* margin-left: 50px; */
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    /* padding: 16px; */
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }.dashbord-custom-card
+  .sidebar-icon{
+    margin-left: 0px;
+  }
+  .top-nav-bar{
+    margin-left: 10%;
+  }
+  
+  .sub-products{
+    margin-left: 20px;
+  }
+  .custom-list-group-item{
+    position: relative;
+      display: block;
+      padding: .5rem 1rem;
+      color: #a6b0cf;
+      text-decoration: none;
+      border: 1px solid rgba(0,0,0,.125);
+  }
+  .custom-list-group-item:hover{
+    color: #FFFFFF;
+    transition: 0.5s
+  }
+  .sidebar-sub-text-color{
+    margin-left: 20%;
+  }
+  .sub-text-color{
+    font-size: 15px;
+  }
+  .sidebar-texts{
+    margin-left: 9px;
+    font-size: 14px;
+    text-transform: capitalize;
+    transition: all .25s;
+  }
+  .sidebar-active-tab{
+    background-color: #404657;
+    border-radius: 3px;
+    color: #ffffff;
+  }
+  /* .table-status-text{
+    border-radius: 15px;
+    text-align: center;
+    border-style: "Solid";
+    border-color: aqua;
+  } */

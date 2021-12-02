@@ -1,0 +1,14 @@
+.search-btn{
+    position: relative;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    user-select: none;
+    background-color:#146eb4;
+    color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 20%) 0px 1px 3px 1px;
+    transition: all 0.15s ease-in-out 0s;
+    text-align: center;
+    cursor: pointer;
+    /* z-index: 0; */
+}

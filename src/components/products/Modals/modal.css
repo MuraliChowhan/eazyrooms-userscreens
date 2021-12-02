@@ -1,0 +1,114 @@
+.clear-bag-btn{
+    background-color: #146eb4;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.confirm-text{
+    color: #808080;
+    font-size: 16px;
+}
+
+.OTP-custom-button-color{
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 0px;
+    border-radius: 6px;
+    text-align: center;
+    color: #ffffff;
+    width: 50%;
+    background-color: #177ccb;
+    border: 0px;
+  }
+
+  .address-btn{
+      background-color:#146eb4;
+      color: #fff;
+      font-size: 15px;
+      margin-top: 12px;
+      padding: 10px;
+      font-weight: 600;
+      font-family: "system-ui";
+      width: 145px;
+  }
+  
+  .address-btn:hover{
+    background-color:#137bcb;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 12px;
+    padding: 10px;
+    font-weight: 600;
+    width: 145px;
+    font-family: "system-ui";
+}
+
+
+.custom-address-modal .modal-content{
+    width: 115% !important;
+    border-radius: 15px !important;
+    padding: 15px;
+}
+
+.order-types-labels{
+    font-size: 14px;
+    color: #000;
+    font-family: system-ui;
+    font-weight: 500;
+}
+.cancel-order-button{
+    background-color: #e50b20;
+    border: #e50b20;
+    color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: system-ui;
+    width: 180px;
+    border-radius: 10px;
+}
+
+
+.cancel-order-button:hover{
+    background-color: #f51329;
+    border: #e50b20;
+    color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: system-ui;
+    width: 180px;
+    border-radius: 10px;
+}
+
+/* 
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #146eb4;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #146eb4;
+} */
